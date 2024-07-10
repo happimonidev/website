@@ -16,20 +16,20 @@ const ContactUs = () => {
               <li className="flex items-center gap-2">
                 <Mail color="white" fill="black" />
                 <span className="text-base md:text-3xl font-medium">
-                  easemoni@blueridgemfb.com
+                  info@happimoni.com
                 </span>
               </li>
 
               <li className="flex items-center gap-2">
                 <Phone fill="black" />
                 <span className="text-base md:text-3xl font-medium">
-                  07009987769
+                  07087864345
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin color="white" fill="black" />
                 <span className="text-base md:text-3xl font-medium">
-                  77, Opebi Street,Ikeja, Lagos.
+                  {`Commercemen Trading Co Ltd. 137, Egbeda Idimu Rd, Egbeda Lagos,`}
                 </span>
               </li>
             </div>
