@@ -13,10 +13,10 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center items-end xl:ml-40">
           <div className="w-full md:w-1/2 xl:w-3/5 2xl:w-1/2 flex flex-col justify-center items-center gap-6">
-            <h1 className="text-black text-4xl  md:text-6xl font-bold text-center leading-normal">
+            <h1 className="animate-fade-down text-black text-4xl  md:text-6xl font-bold text-center leading-normal">
               ALL YOUR LOAN NEEDS IN ONE APP
             </h1>
-            <Link href="#">
+            <Link href="#" className="animate-fade-up">
               <Button className="flex items-center rounded-full px-10">
                 <PlayIcon />
                 <span className="text-xl md:text-3xl">Download APK</span>

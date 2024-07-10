@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const CollectionProcess = () => {
   return (
-    <div className="mb-20">
+    <div className="mb-28">
       <Container>
         <h2 className="text-3xl md:text-5xl font-semibold text-center mb-5">
           Courteous Loan Collection Process

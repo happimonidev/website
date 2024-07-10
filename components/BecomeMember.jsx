@@ -5,10 +5,10 @@ import MemberCard from "./card/MemberCard";
 
 const BecomeMember = () => {
   return (
-    <main className="bg-white my-20 ">
+    <main className="bg-white my-28 ">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-3xl md:text-5xl font-semibold text-center text-black">
+          <h2 className="animate-fade animate-once text-3xl md:text-5xl font-semibold text-center text-black">
             Become a Member of Happimoni
           </h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10 w-full">
