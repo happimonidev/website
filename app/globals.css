@@ -22,6 +22,10 @@
   }
 }
 
+body {
+  font-family: Galano Grotesque Alt !important;
+}
+
 .footer__bg {
   background: url("/assets/images/map.png") no-repeat center center / cover,
     linear-gradient(90deg, #188bf4 0.17%, #1c7ed8 86.29%);
@@ -30,4 +34,7 @@
   background: url("/assets/images/lower-footer.png") no-repeat center center /
     cover;
 }
-
+.hero__border {
+  background: linear-gradient(90deg, #188bf4 0.17%, #1c7ed8 86.29%);
+  height: 9px;
+}

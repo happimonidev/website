@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <Navbar />
+      <div className="hero__border"></div>
       <Hero />
       <BecomeMember />
       <GlobalReach />

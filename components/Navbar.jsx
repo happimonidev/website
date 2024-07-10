@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import Container from "@/components/Container";
 import { X, Menu } from "lucide-react";
-import { AppLogo } from "./vectors";
+
 
 const Navbar = ({ light = false }) => {
   const [active, setActive] = useState(false);
@@ -143,10 +143,10 @@ const menuList = [
   },
   {
     title: "About",
-    href: "/aboutUs",
+    href: "#",
   },
   {
     title: "FAQ",
-    href: "/faq",
+    href: "#",
   },
 ];
