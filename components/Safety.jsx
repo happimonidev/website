@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Safety = () => {
   return (
-    <div className="mb-28 ">
+    <div className="lg:mb-28 mb-10 ">
       <Container>
         <div className="flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:py-6 mb-6 lg:mb-0 flex flex-col justify-center gap-4">
@@ -11,7 +11,7 @@ const Safety = () => {
               Safe and Efficient
             </h2>
 
-            <p className="text-3xl font-normal text-black animate-fade-up animate-once">
+            <p className="text-base md:text-3xl text-balance font-normal text-black animate-fade-up animate-once">
               {`We provide market-competitive credit loan and consumer financial
           services in Nigeria, Egypt, Pakistan, Indonesia , Mexico, Colombia and
           other places , and meet people's needs with safe and efficient

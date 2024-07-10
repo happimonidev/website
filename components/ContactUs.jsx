@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactUs = () => {
   return (
-    <section className="bg-white overflow-hidden mb-28">
+    <section className="bg-white overflow-hidden lg:mb-28 mb-10">
       <Container>
         <div className="flex flex-wrap  w-full">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0 flex flex-col gap-4">

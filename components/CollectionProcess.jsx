@@ -3,12 +3,12 @@ import Container from "./Container";
 
 const CollectionProcess = () => {
   return (
-    <div className="mb-28">
+    <div className="lg:mb-28 mb-10">
       <Container>
         <h2 className="text-3xl md:text-5xl font-semibold text-center mb-5">
           Courteous Loan Collection Process
         </h2>
-        <p className="text-base md:text-3xl font-normal text-justify text-balance md:text-center">
+        <p className="text-base md:text-3xl font-normal text-balance md:text-center">
           {` Happimoni does not tolerate any form of inappropriate or illegal
           collections. If you have experienced any form of harassment or other
           form of abusive language, threats to your privacy and safety while

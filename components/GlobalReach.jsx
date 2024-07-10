@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const GlobalReach = () => {
   return (
-    <section className="bg-white overflow-hidden mb-28">
+    <section className="bg-white overflow-hidden lg:mb-28 mb-10">
       <Container>
         <div className="flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
@@ -13,7 +13,7 @@ const GlobalReach = () => {
             <h1 className="animate-fade-right animate-once text-black text-3xl md:text-6xl  font-semibold mb-4">
               Serving users in Africa, Southeast Asia and Latin Americ
             </h1>
-            <p className="text-3xl font-normal text-black animate-fade-up animate-once">
+            <p className="text-base md:text-3xl text-balance font-normal text-black animate-fade-up animate-once">
               {`Personal loans have covered Nigeria, Egypt, Pakistan, Indonesia,
               Mexico, Colombia, and other countries are gradually opening
               up......`}

@@ -5,7 +5,7 @@ import MemberCard from "./card/MemberCard";
 
 const BecomeMember = () => {
   return (
-    <main className="bg-white my-28 ">
+    <main className="bg-white my-10 lg:my-28 ">
       <Container>
         <div className="flex flex-col justify-center items-center">
           <h2 className="animate-fade animate-once text-3xl md:text-5xl font-semibold text-center text-black">
