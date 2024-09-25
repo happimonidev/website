@@ -29,7 +29,7 @@ const ContactUs = () => {
               <li className="flex items-center gap-2">
                 <MapPin color="white" fill="black" />
                 <span className="text-base md:text-3xl font-medium">
-                  {`Commercemen Trading Co Ltd. 137, Egbeda Idimu Rd, Egbeda Lagos,`}
+                  {`18, Ama-Pepple Estate, Isheri-Olofin, Ado-odo, ota, Ogun state,`}
                 </span>
               </li>
             </div>

@@ -17,10 +17,9 @@ export default function Home() {
       <div className="hero__border"></div>
       <Hero />
       <BecomeMember />
-      <GlobalReach />
+
       <Trusted />
-      <Cancellation />
-      <Safety />
+
       <CollectionProcess />
       <ContactUs />
       <FraudAlert />
