@@ -46,10 +46,7 @@ const Footer = () => {
         <Container>
           <div className="py-4  flex justify-between flex-wrap gap-10 opacity-100">
             <div className="w-full md:w-1/4">
-              <p className="text-sm text-white opacity-100 ">
-                {`Operating in over 10 countries and home to more than 30
-                nationalities. Happimoni is a global payments leader in fintech.`}
-              </p>
+             
               <p className="text-xl font-semibold text-white mt-5 opacity-100">
                 Copyright © 2024 happimoni
               </p>
@@ -82,18 +79,6 @@ const footerLinks = [
         title: "Global Payments",
         href: "#",
       },
-      {
-        title: "Global Payments",
-        href: "#",
-      },
-      {
-        title: "Global Payments",
-        href: "#",
-      },
-      {
-        title: "Global Payments",
-        href: "#",
-      },
     ],
   },
   {
@@ -107,14 +92,7 @@ const footerLinks = [
         title: "Company",
         href: "#",
       },
-      {
-        title: "Clients",
-        href: "#",
-      },
-      {
-        title: "Happimoni Certification",
-        href: "#",
-      },
+      
     ],
   },
   {
@@ -124,10 +102,7 @@ const footerLinks = [
         title: "Privacy Policy",
         href: "#",
       },
-      {
-        title: "Privacy Portal Nigeria",
-        href: "#",
-      },
+
       {
         title: "Disclosure Policy",
         href: "#",
@@ -154,10 +129,6 @@ const footerLinks = [
   {
     heading: "Support",
     list: [
-      {
-        title: "Developer Portal",
-        href: "#",
-      },
       {
         title: "Contact Us",
         href: "#",

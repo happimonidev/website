@@ -2,6 +2,7 @@ import BecomeMember from "@/components/BecomeMember";
 import Cancellation from "@/components/Cancellation";
 import CollectionProcess from "@/components/CollectionProcess";
 import ContactUs from "@/components/ContactUs";
+import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
 import FraudAlert from "@/components/FraudAlert";
 import GlobalReach from "@/components/GlobalReach";
@@ -23,6 +24,7 @@ export default function Home() {
       <CollectionProcess />
       <ContactUs />
       <FraudAlert />
+      <FaqSection />
       <Footer />
     </main>
   );
