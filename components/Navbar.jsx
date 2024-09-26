@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 import Container from "@/components/Container";
 import { X, Menu } from "lucide-react";
 
-
 const Navbar = ({ light = false }) => {
   const [active, setActive] = useState(false);
   const pathname = usePathname();
@@ -147,6 +146,6 @@ const menuList = [
   },
   {
     title: "FAQ",
-    href: "#",
+    href: "#faqs",
   },
 ];

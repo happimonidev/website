@@ -175,7 +175,7 @@ export default function FaqSection() {
 
   return (
     <Container>
-      <div className="mt-10 px-4">
+      <div className="mt-10 px-4" id="faqs">
         <h2 className="text-3xl md:text-5xl font-semibold text-center mb-5 animate-fade-up animate-once">
           Frequently Asked Questions
         </h2>
