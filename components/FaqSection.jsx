@@ -176,6 +176,9 @@ export default function FaqSection() {
   return (
     <Container>
       <div className="mt-10 px-4">
+        <h2 className="text-3xl md:text-5xl font-semibold text-center mb-5 animate-fade-up animate-once">
+          Frequently Asked Questions
+        </h2>
         {faqs.map((faqGroup, groupIndex) => (
           <div key={groupIndex} className="mb-8">
             <h2 className="text-2xl font-bold mb-4">{faqGroup.group}</h2>
